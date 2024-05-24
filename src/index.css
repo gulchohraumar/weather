@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
@@ -7,7 +10,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.row{
+.row {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+.common-container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 20px #00000021;
+}
+
+
+*::selection {
+  background: #009846;
+  color: #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2b744d !important;
+  border-radius: 2px;
+}
+
+.cards {
+  background: #EBDEFF;
+  color: #343434;
 }

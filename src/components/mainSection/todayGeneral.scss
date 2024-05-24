@@ -1,0 +1,23 @@
+.background {
+    background: url(../../assets/bg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 70vh;
+    height: 70vh;
+}
+
+.background-hourly {
+    // height: 20vh;
+    max-height: 24vh;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.hourly-items{
+    min-width: 70px;
+}
+
+.hourly-items img{
+    width: 60px;
+    height: 60px;
+}
