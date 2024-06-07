@@ -1,0 +1,45 @@
+.theme-label {
+    position: relative;
+    // background-color: red;
+    border: 1px solid #dedede;
+    width: 50px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+
+.toggle-circle {
+    background-color: #89508a;
+    position: absolute;
+    top: 1px;
+    width: 21px;
+    height: 21px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.toggle-circle:has(~ .checkbox-theme:not(:checked)) {
+    // left: 2px;
+    transform: translate(2px, 0);
+    transition: 0.5s;
+}
+
+.toggle-circle:has(~ .checkbox-theme:checked) {
+    background-color: #454545 !important;
+    // right: 2px !important;
+    transform: translate(120%, 0);
+    transition: 0.5s;
+}
+
+.checkbox-theme {
+    visibility: hidden;
+    width: 100% !important;
+}
+
+.dark_mode_theme_con{
+    background-color: #EBDEFF !important
+}
+
+.dark_mode_theme_con .theme-label {
+   background-color: #fff;
+}

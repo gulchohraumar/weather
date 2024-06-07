@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import './assets/Fontawesome-V6-Pro-main/assets/css/all.min.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,6 +22,13 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  transition: 0.5s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.common_container_dark_mode {
+  background-color: #454545 !important;
 }
 
 .box-shadow {
@@ -27,7 +37,7 @@ body {
 
 
 *::selection {
-  background: #009846;
+  background: #8a5088;
   color: #fff;
 }
 
@@ -43,7 +53,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #2b744d !important;
+  background-color: #a7a7a7 !important;
   border-radius: 2px;
 }
 

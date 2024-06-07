@@ -38,7 +38,7 @@ function FiveDaysForecast() {
                         <div className="col-md-2 text-center">
                             <img src={dt.img.default} alt="" />
                         </div>
-                        <div className="col-md-3 text-end text-lg font-semibold"> {dt.temprature} </div>
+                        <div className="col-md-3 text-end text-lg"> {dt.temprature} </div>
                         <div className="col-md-7 text-end text-lg"> {dt.date}</div>
                     </div>
                 })
